@@ -41,7 +41,10 @@ class TechMartConstants:
 class HelperFunctions:
     @staticmethod
     def clrscr():
-        os.system('clear')
+        if os.name == 'nt':  # Check if the operating system is Windows
+            os.system('cls')
+        else:  # Assume Unix-based system (Linux, macOS, etc.)
+            os.system('clear')
 
     @staticmethod
     def click_to_continue():
@@ -128,7 +131,7 @@ class HelperFunctions:
 
     @staticmethod
     def purge_line_of_file_and_add_to_another(
-            id_to_purge: str, out_filename_orig: str, out_filename_del: str
+        id_to_purge: str, out_filename_orig: str, out_filename_del: str
     ):
         rows_to_keep = []
         rows_to_delete = []

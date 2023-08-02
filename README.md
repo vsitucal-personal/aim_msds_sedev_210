@@ -2,11 +2,6 @@
 TechMart Case Study Machine Problem
 
 ---
-Pre-requizites
-
-``pip install -r requirements.txt``
-
----
 To run 
 
-``python techmart.py``
+``python techmart_simplified.py``
