@@ -1,8 +1,12 @@
 # aim_msds_sedev_210
-Case Study Machine Problem
+TechMart Case Study Machine Problem
 
 ---
+Pre-requizites
 
+``pip install -r requirements.txt``
+
+---
 To run 
 
-``python main.py``
+``python techmart.py``
