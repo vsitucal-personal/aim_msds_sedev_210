@@ -918,7 +918,7 @@ class TechMart:
 
     def restock_level_alert(self):
         """
-        Author: Vincent Itucal
+        Author: Rhodora Cleofe
 
         Check if a product needs restocking based on its current quantity and threshold levels.
 
