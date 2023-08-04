@@ -540,7 +540,7 @@ class TechMart:
             "4": self.display_inventory_history_menu,
             # Leonard
             "5": self.recover_deleted_product,
-            # Vincent
+            # Dorie
             "6": self.restock_level_alert,
             # Vincent
             "7": self.show_all_stats,
